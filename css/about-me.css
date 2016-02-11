@@ -1,0 +1,126 @@
+.masthead {
+  /* Layout Delcarations */
+  padding: 4em 0;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1440847899694-90043f91c7f9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=54f9ba66ae452bb286cb7fc8b1752a71");
+  background-size: cover;
+  /* Type Declarations */
+  font-size: 40px;
+}
+
+.masthead-intro {
+  /* Layout Delcarations */
+  margin-bottom: 0.1em;
+  margin-right: 12em;
+  text-align: right;
+  /* Type Declarations */
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-weight: bold;
+}
+
+.masthead-heading {
+  /* Layout Delcarations */
+  margin-top: -0.2em;
+  text-align: right;
+  /* Type Declarations */
+  font-family: "Russo One", sans-serif;
+  font-size: 90px;
+  color: rgb(44, 35, 36);
+}
+
+.interesting > p,
+{
+  margin-top: -2em;
+}
+
+.interesting > h2 {
+  margin-bottom: -2em;
+}
+
+.interesting1 {
+  margin-top: -1em;
+}
+
+.bodytext {
+  /* Layout Delcarations */
+  text-align: justify;
+  letter-spacing: .01em;
+  text-indent: 3em;
+  padding: 3em;
+  /* Type Declarations */
+  font-family: "Cardo", sans-serif;
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  /* Layout Declarations */
+  text-align: center;
+  /* Type Declarations */
+  color: rgb(165, 160, 114);
+  font-family: "Cardo" sans-serif;
+}
+
+a:link {
+  color: darkblue;
+}
+
+a:visited {
+  color: darkgreen;
+}
+
+a:hover {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h3f {
+  margin-top: -2em;
+  text-align: center;
+}
+
+ul > li {
+  display: inline-block;
+}
+
+ul {
+  margin-right: 3em;
+}
+
+.foot {
+  padding: 4em 0;
+  background-color: rgb(111, 115, 121);
+  text-align: center;
+}
+
+.row  {
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 700px) {
+  .masthead-heading {
+    font-size: 1em;
+    color: rgb(185, 200, 216);
+  }
+  .masthead-intro {
+    color: rgb(185, 200, 216);
+    font-size: .5em;
+    margin-right: 10em;
+  }
+  .masthead {
+    padding: 2em 0;
+  }
+  .row p{
+    padding: 1em;
+    text-indent: 1em;
+    letter-spacing: .01em;
+    font-size: 20px;
+  }
+
+  .row .interesting p {
+    margin-top: 2em;
+  }
+}
